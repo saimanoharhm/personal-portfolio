@@ -1,0 +1,120 @@
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 3rem;
+}
+
+.profile-container {
+  padding-top: 3rem;
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 9.6rem;
+}
+
+.profile-image {
+  width: 100%;
+}
+
+.profile {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.profile:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.profile-content {
+  padding: 3.2rem 2.2rem 3.2rem 2.2rem;
+}
+
+.profile-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+
+.profile-tagline {
+  color: #666;
+  font-size: 1.5rem;
+  margin-bottom: 3.3rem;
+}
+
+.profile-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profile-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.profile-icon {
+  font-size: 2rem;
+  color: #000;
+}
+
+.profile-img {
+  width: 100%;
+}
+
+.description {
+  color: #333;
+  font-size: 2rem;
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .profile-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 4rem;
+  }
+
+  .profile-content {
+    padding: 4rem 2.8rem 4rem 2.8rem;
+  }
+
+  .profile-title {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .profile-tagline {
+    font-size: 1.8rem;
+    margin-bottom: 3.3rem;
+  }
+
+  .profile-icon {
+    font-size: 8rem;
+    color: #000;
+  }
+
+  .description {
+    font-size: 3rem;
+  }
+
+  .profile-attribute {
+    font-size: 2.8rem;
+  }
+
+  .profile-attributes {
+    font-size: 2.8rem;
+  }
+}

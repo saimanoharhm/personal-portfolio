@@ -1,0 +1,34 @@
+.main {
+  margin: 10rem 0;
+  padding: 0 17rem;
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .main {
+    padding: 0 10rem;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .main {
+    padding: 0 6rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .main {
+    padding: 0 2rem;
+  }
+}
