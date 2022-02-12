@@ -12,7 +12,7 @@ const AboutComp = () => {
       </header>
       <hr />
       <section className={classes["profile-container"]}>
-        <div>
+        <div className={classes["profile-card"]}>
           <Card className={classes.profile}>
             <img
               src={saiImage}
@@ -27,24 +27,26 @@ const AboutComp = () => {
               <ul className={classes["profile-attributes"]}>
                 <li className={classes["profile-attribute"]}>
                   <Student size={40} className={classes["profile-icon"]} />
-                  <span>Sathyabama IST</span>
+                  <span className={classes["icon-text"]}>Sathyabama IST</span>
                 </li>
                 <li className={classes["profile-attribute"]}>
                   <MapPin size={40} className={classes["profile-icon"]} />
-                  <span>Chennai,India</span>
+                  <span className={classes["icon-text"]}>Chennai,India</span>
                 </li>
                 <li className={classes["profile-attribute"]}>
                   <EnvelopeSimple
                     size={40}
                     className={classes["profile-icon"]}
                   />
-                  <span>saimanohar987@gmail.com</span>
+                  <span className={classes["icon-text"]}>
+                    saimanohar987@gmail.com
+                  </span>
                 </li>
               </ul>
             </div>
           </Card>
         </div>
-        <div>
+        <div className={classes["profile-description"]}>
           <h1 className={classes.header}>Hi,👋 I'm Annam Sai Manohar</h1>
           <p className={classes.description}>
             🧑‍🎓I am a Junior Year Student at Sathyabama Institute of Science

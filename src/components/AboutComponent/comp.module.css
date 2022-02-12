@@ -109,12 +109,33 @@
   .description {
     font-size: 3rem;
   }
+}
 
-  .profile-attribute {
-    font-size: 2.8rem;
+/**************************/
+/* BELOW 368px (Too Smaller Phones) */
+/**************************/
+
+@media (max-width: 23em) {
+  .profile-container {
+    width: 2rem;
+    margin: 0;
+    gap: 2rem;
   }
 
-  .profile-attributes {
-    font-size: 2.8rem;
+  .profile-title {
+    font-size: 2.9rem;
+    font-weight: 700;
+  }
+
+  .profile-tagline {
+    font-size: 1.6rem;
+  }
+
+  .profile-icon {
+    width: 3rem;
+  }
+
+  .description {
+    font-size: 2rem;
   }
 }

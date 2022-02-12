@@ -83,3 +83,37 @@
     height: 9%;
   }
 }
+
+/**************************/
+/* BELOW 465px (Smaller Phones) */
+/**************************/
+
+@media (max-width: 30em) {
+  .header {
+    padding: 0 2rem;
+  }
+  .logo img {
+    width: 17%;
+    height: 17%;
+  }
+  .nav li {
+    font-size: 2rem;
+  }
+}
+
+/**************************/
+/* BELOW 368px (Too Smaller Phones) */
+/**************************/
+
+@media (max-width: 23em) {
+  .header {
+    padding: 0 2rem;
+  }
+  .logo img {
+    width: 30%;
+    height: 30%;
+  }
+  .nav li {
+    font-size: 1.6rem;
+  }
+}
