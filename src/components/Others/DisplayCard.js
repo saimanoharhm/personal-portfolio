@@ -3,7 +3,9 @@ import classes from "./DisplayCard.module.css";
 
 const DisplayCard = (props) => {
   const hashtagsList = props.technology.map((tech) => (
-    <p className={classes.hashtags}>{tech}</p>
+    <p key={tech + "_"} className={classes.hashtags}>
+      {tech}
+    </p>
   ));
   return (
     <li className={classes["display-card"]}>

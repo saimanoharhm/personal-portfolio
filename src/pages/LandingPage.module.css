@@ -25,3 +25,52 @@
     font-size: 56.25%;
   }
 }
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .headerName {
+    font-size: 5.6rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 34em) {
+  .headerName {
+    font-size: 4.6rem;
+  }
+  .typewriter {
+    font-size: 2.8rem;
+  }
+}
+
+/**************************/
+/* BELOW 480px (Smaller Phones) */
+/**************************/
+
+@media (max-width: 30em) {
+  .headerName {
+    font-size: 4rem;
+  }
+  .typewriter {
+    font-size: 2.5rem;
+  }
+}
+
+/**************************/
+/* BELOW 368px (Too Smaller Phones) */
+/**************************/
+
+@media (max-width: 23em) {
+  .headerName {
+    font-size: 3.1rem;
+  }
+  .typewriter {
+    font-size: 1.8rem;
+  }
+}

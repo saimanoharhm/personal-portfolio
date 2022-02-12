@@ -2,3 +2,13 @@
   font-size: 2rem;
   margin-top: 4rem;
 }
+
+/**************************/
+/* BELOW 368px (Too Smaller Phones) */
+/**************************/
+
+@media (max-width: 23em) {
+  .landingPage {
+    font-size: 1.8rem;
+  }
+}
