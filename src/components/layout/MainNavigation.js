@@ -1,7 +1,7 @@
 import { NavLink, Link } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
 import saiImage from "../../assets/sai1.jpeg";
-import resume from "../../assets/resume1.2.pdf";
+import resume from "../../assets/resume.pdf";
 
 const MainNavigation = () => {
   return (
